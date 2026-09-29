@@ -1,0 +1,20 @@
+curl https://api.github.com/repos/esha122004/mcino-Introduction-to-Git-and-GitHub/pulls/1
+
+{
+  "number": 1,
+  "state": "open",
+  "title": "Revert typo fix",
+  "head": {
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "esha122004/mcino-Introduction-to-Git-and-GitHub",
+      "fork": true
+    }
+  },
+  "base": {
+    "ref": "main",
+    "repo": {
+      "full_name": "esha122004/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
